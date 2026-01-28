@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO e compartilhamento -->
+  <meta name="description" content="Portfólio de fotografia Obatayie - Capturando momentos em esportes, cultura, lazer, paisagens e eventos. Leandro Obatayie, fotógrafo em Curitiba e região.">
+  <meta property="og:title" content="Obatayie Fotografia">
+  <meta property="og:description" content="Fotos profissionais de corridas, breaking, capoeira, lazer, paisagens e mais. Eternizando emoções.">
+  <meta property="og:image" content="https://srsadler.github.io/Obatayie-Fotografias/img/logo.png">
+  <meta property="og:url" content="https://srsadler.github.io/Obatayie-Fotografias/">
+  <meta property="og:type" content="website">
+
+  <title>Obatayie Fotografia</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Century+Gothic&family=Azonix&family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="img/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <img src="img/logo.png" alt="Obatayie Fotografia" class="hero-logo">
+  </header>
+
+  <!-- PORTFÓLIO / APRESENTAÇÃO -->
+  <section id="portfolio" class="portfolio fade-section">
+
+    <!-- Filtros por categoria -->
+    <div class="filters">
+      <button data-filter="all" class="active">Todos</button>
+      <button data-filter="esporte">Esporte</button>
+      <button data-filter="cultura">Cultura</button>
+      <button data-filter="lazer">Lazer</button>
+      <button data-filter="paisagens">Paisagens</button>
+    </div>
+
+    <!-- Apresentação: zigue-zague corrigido -->
+    <div class="intro-presentation">
+
+      <!-- Trecho 1: texto esquerda, foto direita -->
+      <div class="intro-section">
+        <div class="intro-text">
+          <h2>Obatayie Fotografias é um nome de destaque no mercado</h2>
+          <p>posicionado para registrar seus momentos mais preciosos.</p>
+        </div>
+        <div class="intro-photo">
+          <img src="img/portfolio/Fotos Genéricas/Gen1.jpeg" alt="Momento precioso capturado" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Trecho 2: foto esquerda, texto direita (encostado na borda direita) -->
+      <div class="intro-section trecho-2">
+        <div class="intro-photo">
+          <img src="img/portfolio/Fotos Genéricas/Gen2.jpeg" alt="Emoções eternizadas em imagem" loading="lazy">
+        </div>
+        <div class="intro-text">
+          <h2>A nossa missão vai além do simples clique</h2>
+          <p>Dedicamo-nos a eternizar emoções e criar memórias visuais que serão contempladas e valorizadas por gerações. Oferecemos um compromisso de qualidade e dedicação em cada projeto.</p>
+        </div>
+      </div>
+
+      <!-- Trecho 3: texto esquerda, foto direita -->
+      <div class="intro-section">
+        <div class="intro-text">
+          <h2>Conte conosco para transformar suas histórias em arte fotográfica duradoura</h2>
+        </div>
+        <div class="intro-photo">
+          <img src="img/portfolio/Fotos Genéricas/Gen3.jpeg" alt="Histórias transformadas em arte" loading="lazy">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Portfólio real (inicialmente escondido) -->
+    <div class="portfolio-grid hidden-initial">
+      <!-- Cultura -->
+      <div class="photo-slot" data-category="cultura">
+        <img src="img/portfolio/Cultura/Cultura (1).jpeg" alt="Cultura 1" loading="lazy">
+      </div>
+      <div class="photo-slot" data-category="cultura">
+        <img src="img/portfolio/Cultura/Cultura (2).jpeg" alt="Cultura 2" loading="lazy">
+      </div>
+      <div class="photo-slot" data-category="cultura">
+        <img src="img/portfolio/Cultura/Cultura (3).jpeg" alt="Cultura 3" loading="lazy">
+      </div>
+      <div class="photo-slot" data-category="cultura">
+        <img src="img/portfolio/Cultura/Cultura (4).jpeg" alt="Cultura 4" loading="lazy">
+      </div>
+
+      <!-- Esporte -->
+      <div class="photo-slot" data-category="esporte">
+        <img src="img/portfolio/Esporte/Esporte (1).jpeg" alt="Esporte 1" loading="lazy">
+      </div>
+      <div class="photo-slot" data-category="esporte">
+        <img src="img/portfolio/Esporte/Esporte (2).jpeg" alt="Esporte 2" loading="lazy">
+      </div>
+      <div class="photo-slot" data-category="esporte">
+        <img src="img/portfolio/Esporte/Esporte (3).jpeg" alt="Esporte 3" loading="lazy">
+      </div>
+      <div class="photo-slot" data-category="esporte">
+        <img src="img/portfolio/Esporte/Esporte (4).jpeg" alt="Esporte 4" loading="lazy">
+      </div>
+
+      <!-- Lazer -->
+      <div class="photo-slot" data-category="lazer">
+        <img src="img/portfolio/Lazer/Lazer (1).jpeg" alt="Lazer 1" loading="lazy">
+      </div>
+      <div class="photo-slot" data-category="lazer">
+        <img src="img/portfolio/Lazer/Lazer (2).jpeg" alt="Lazer 2" loading="lazy">
+      </div>
+      <div class="photo-slot" data-category="lazer">
+        <img src="img/portfolio/Lazer/Lazer (3).jpeg" alt="Lazer 3" loading="lazy">
+      </div>
+
+      <!-- Paisagens -->
+      <div class="photo-slot" data-category="paisagens">
+        <img src="img/portfolio/Paisagens/Paisagem (1).jpeg" alt="Paisagem 1" loading="lazy">
+      </div>
+      <div class="photo-slot" data-category="paisagens">
+        <img src="img/portfolio/Paisagens/Paisagem (2).jpeg" alt="Paisagem 2" loading="lazy">
+      </div>
+      <div class="photo-slot" data-category="paisagens">
+        <img src="img/portfolio/Paisagens/Paisagem (3).jpeg" alt="Paisagem 3" loading="lazy">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+
+      <div class="footer-name reveal-name">
+        LEANDRO OBATAYIE
+      </div>
+
+      <div class="footer-social">
+
+        <!-- WHATSAPP -->
+        <a href="https://wa.me/554195192946" target="_blank" aria-label="WhatsApp" class="social-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12.04 2C6.53 2 2 6.48 2 11.96c0 2.11.55 4.17 1.6 5.98L2 22l4.2-1.6a9.94 9.94 0 0 0 5.84 1.84c5.51 0 10.04-4.48 10.04-9.96C22.08 6.48 17.55 2 12.04 2Zm5.83 14.42c-.24.68-1.39 1.3-1.92 1.38-.49.08-1.11.11-3.58-.77-3.14-1.09-5.18-4.58-5.34-4.8-.15-.22-1.26-1.67-1.26-3.18 0-1.5.78-2.24 1.06-2.55.27-.3.6-.38.8-.38h.57c.18 0 .43-.07.67.51.24.58.83 2.02.9 2.17.07.15.11.33.02.53-.09.2-.13.33-.27.51-.13.18-.28.4-.4.53-.13.13-.27.28-.12.55.15.27.67 1.1 1.44 1.78.99.88 1.82 1.15 2.09 1.28.27.13.43.11.6-.07.18-.18.69-.8.87-1.08.18-.27.36-.22.6-.13.24.09 1.51.71 1.77.84.26.13.44.2.51.31.07.11.07.64-.17 1.32Z"/>
+          </svg>
+        </a>
+
+        <!-- INSTAGRAM -->
+        <a href="https://www.instagram.com/lean.drofoto/" target="_blank" aria-label="Instagram" class="social-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm-5 3.2A4.8 4.8 0 1 1 7.2 12 4.8 4.8 0 0 1 12 7.2Zm0 2A2.8 2.8 0 1 0 14.8 12 2.8 2.8 0 0 0 12 9.2Zm4.9-.9a1.1 1.1 0 1 1-1.1-1.1 1.1 1.1 0 0 1 1.1 1.1Z"/>
+          </svg>
+        </a>
+
+      </div>
+
+      <div class="footer-credit">
+        © 2026 Developed and designed by
+        <a href="https://www.instagram.com/sr.sadler/" target="_blank">Sadler</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <button id="lightbox-close" aria-label="Fechar lightbox">×</button>
+    <img id="lightbox-img" alt="Fotografia ampliada">
+    <button id="lightbox-prev" aria-label="Foto anterior">‹</button>
+    <button id="lightbox-next" aria-label="Próxima foto">›</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
